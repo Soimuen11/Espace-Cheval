@@ -1,0 +1,21 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+h1,h2,h3,h4
+{ 
+	text-align:center;
+}
+
+div.jumbotron {
+  overflow: hidden;
+  background-color: black;
+  color:gold;
+  margin-bottom: 0;
+  /* padding: 20px 10px; */
+}
