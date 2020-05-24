@@ -3,6 +3,12 @@ html, body{
 	width: 100%;
 }
 
+div.container-fluid{
+	background-color:black;
+	color: silver;
+	text-align: center;
+}
+
 .selector-for-some-widget {
 	box-sizing: content-box;
 }
@@ -14,8 +20,7 @@ h1,h2,h3,h4
 
 div.jumbotron {
 	overflow: hidden;
-	background-color: black;
-	color:gold;
+	color:silver;
 	margin-bottom: 0;
 }
 
