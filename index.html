@@ -14,7 +14,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 		<!-- Espace cheval description-->
-		<meta name="Iannetta Philippe">
+		<meta name="Iannetta Philippe" content="Créateur du site web Espace Cheval">
 		<meta name="description" content="L'espace cheval est un centre équestre, poney-club, centre de tourisme equestre ainsi qu'un centre de formation ATE et CQP ASA TE. Nous assurons aussi la pension de chevaux ainsi que le travail de ceux-ci, du débourrage à l'entrainement. Nous effectuons aussi les surveillances de poulinages." />
 		<meta name="keywords" content="centre de formation ate, cqp asa te, accompagnateur de tourisme equestre, cheval, ate, école d'équitation, ffe, efe, dressage, cso, cross, hunter, ptv, centre de tourisme équestre, écurie de propriétaire, pension cheval, galop pleine nature, cours d'équitation dans l'ain.
 					LABELISE ECOLE FRANCAISE D'EQUITATION" />
@@ -32,7 +32,7 @@
 				<h1 style="color:#800000">Espace Cheval</h1>		
 				<h3 style="color:#3A128F"><em>« Le plaisir de l'équitation avant tout »</em></h3>		
 			</div>
-			<nav class="navbar navbar-inverse" role="navigation" align="center">
+			<nav class="navbar navbar-inverse">
 				<div class="container-fluid">
 					<div class="navbar-header">
 						<a class="navbar-brand" href="#">
@@ -107,10 +107,31 @@
 									<li><a href="">Chèquiers jeunes</a></li>
 								</ul>
 							</li>
-							<ul class="nav navbar-nav navbar-right">
-								<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-								<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-							</ul>
+							<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="glyphicon glyphicon-log-in"></span> Sign Up
+							</a>
+							<div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+								<form class="form-horizontal" method="post" accept-charset="UTF-8">
+									<input class="form-control login" type="text" name="email" placeholder="Email Address..."><br>
+									<input class="form-control login" type="text" name="username" placeholder="Username..."><br>
+									<input class="form-control login" type="password" name="password" placeholder="Password..."><br>
+									<input class="btn btn-primary" type="submit" name="submit" value="Sign up">
+								</form>
+							</div>
+							</li>
+							<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="http://example.com" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								<span class="glyphicon glyphicon-log-in"></span> Login
+							</a>
+							<div class="dropdown-menu" style="padding: 15px; padding-bottom: 10px;">
+								<form class="form-horizontal" method="post" accept-charset="UTF-8">
+									<input class="form-control login" type="text" name="username" placeholder="Username..."><br>
+									<input class="form-control login" type="password" name="password" placeholder="Password..."><br>
+									<input class="btn btn-primary" type="submit" name="submit" value="Login">
+								</form>
+							</div>
+							</li>
 						</ul>		
 						</div>
 					</div>
