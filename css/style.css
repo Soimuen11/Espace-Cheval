@@ -1,6 +1,12 @@
+/* GENERAL STUFF*/
 html, body{
 	height: 100%;
 	width: 100%;
+}
+
+h1,h2,h3,h4
+{ 
+	text-align:center;
 }
 
 div.container-fluid{
@@ -13,10 +19,13 @@ div.container-fluid{
 	box-sizing: content-box;
 }
 
-h1,h2,h3,h4
-{ 
-	text-align:center;
+.content {
+	padding: 16px;
 }
+
+/* END GENERAL STUFF*/
+
+/* HEADER & FOOTER */
 
 div.jumbotron {
 	overflow: hidden;
@@ -24,6 +33,19 @@ div.jumbotron {
 	margin-bottom: 0;
 }
 
+footer div.jumbotron.text-center{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
+}
+
+/* END HEADER & FOOTER */
+
+/*NAVBAR STYLING */
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -35,13 +57,20 @@ div.jumbotron {
 	border:0;
 }
 
-.navbar .navbar-collapse {
-	text-align: center;
+.navbar-inverse .navbar-nav > li > a{
+	color: cornflowerblue !important;
 }
 
-/* Page content */
-.content {
-	padding: 16px;
+ul.dropdown-menu > li > a:hover{
+	background-color: cornflowerblue;
+}
+
+a.navbar-brand:hover{
+	color: cornflowerblue !important;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
 }
 
 /* The sticky class is added to the navbar with JS when it reaches its scroll position */
@@ -55,17 +84,15 @@ div.jumbotron {
 .sticky + .content {
 	padding-top: 60px;
 }
+/* END NAVBAR STYLING */
 
+/* CAROUSEL STYLING */
+
+/* center carousel images */
 .carousel-inner img {
 	margin: auto;
 }
 
-footer div.jumbotron.text-center{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: red;
-	color: white;
-	text-align: center;
-}
+/* END CAROUSEL STYLING */
+
+
