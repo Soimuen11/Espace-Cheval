@@ -30,6 +30,11 @@ div.jumbotron {
 	vertical-align: top;
 }
 
+.navbar.navbar-inverse{
+	margin-bottom:0;
+	border:0;
+}
+
 .navbar .navbar-collapse {
 	text-align: center;
 }
@@ -51,3 +56,6 @@ div.jumbotron {
 	padding-top: 60px;
 }
 
+.carousel-inner img {
+  margin: auto;
+}
