@@ -57,5 +57,15 @@ div.jumbotron {
 }
 
 .carousel-inner img {
-  margin: auto;
+	margin: auto;
+}
+
+footer div.jumbotron.text-center{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: red;
+	color: white;
+	text-align: center;
 }
