@@ -1,7 +1,10 @@
-/* GENERAL STUFF*/
 html, body{
 	height: 100%;
 	width: 100%;
+}
+
+body{
+	background-image: url("../img/header-background.jpg");
 }
 
 h1,h2,h3,h4,h5,h6
@@ -10,7 +13,6 @@ h1,h2,h3,h4,h5,h6
 }
 
 div.container-fluid{
-	background-color:black;
 	color: silver;
 	text-align: center;
 }
@@ -22,10 +24,6 @@ div.container-fluid{
 .content {
 	padding: 16px;
 }
-
-/* END GENERAL STUFF*/
-
-/* HEADER & FOOTER */
 
 div.jumbotron {
 	overflow: hidden;
@@ -43,9 +41,6 @@ footer div.jumbotron.text-center{
 	text-align: center;
 }
 
-/* END HEADER & FOOTER */
-
-/*NAVBAR STYLING */
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -73,24 +68,27 @@ a.navbar-brand:hover{
 	text-align: center;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
 	padding-top: 60px;
 }
-/* END NAVBAR STYLING */
 
-/* CAROUSEL STYLING */
-
-/* center carousel images */
 .carousel-inner img {
 	margin: auto;
+	border-radius: 5px;
 }
 
-/* END CAROUSEL STYLING */
+footer{
+	color:black;
+}
+
+@media only screen and (max-width: 750px) {
+	footer{
+		color: white;
+	}
+}
