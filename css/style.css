@@ -31,16 +31,6 @@ div.jumbotron {
 	margin-bottom: 0;
 }
 
-footer div.jumbotron.text-center{
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: red;
-	color: white;
-	text-align: center;
-}
-
 .navbar .navbar-nav {
 	display: inline-block;
 	float: none;
@@ -76,6 +66,11 @@ a.navbar-brand:hover{
 
 .sticky + .content {
 	padding-top: 60px;
+}
+
+div#myCarousel.carousel.slide{
+	width: 70%;
+	margin:auto;
 }
 
 .carousel-inner img {
